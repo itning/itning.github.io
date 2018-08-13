@@ -1,0 +1,7 @@
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,_(j,k),l,[m,n],o,_(p,q,r,s,t,u,v,_(),w,_(x,y,z,A,B,_(C,D,E,F),G,null,H,A,I,A,J,K,L,null,M,N,O,P,Q,R,S,N),T,_(),U,_(V,_(W,X,Y,[_(W,Z,ba,g,bb,[_(bc,bd,W,be,bf,bg),_(bc,bh,W,bi,bj,_(bk,o,b,bl,bm,bn),bo,bp)])])),bq,_(br,[])),bs,_(),bt,_());}; 
+var b="url",c="splash.html",d="generationDate",e=new Date(1534150576756.86),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="sketchKeys",j="",k="s0",l="variables",m="OnLoadVariable",n="nav_checked_v",o="page",p="packageId",q="7b4d313a578341b3a4b8d6b4ac4cbc66",r="type",s="Axure:Page",t="name",u="Splash",v="notes",w="style",x="baseStyle",y="627587b6038d43cca051c114ac41ad32",z="pageAlignment",A="near",B="fill",C="fillType",D="solid",E="color",F=0xFFFFFFFF,G="image",H="imageHorizontalAlignment",I="imageVerticalAlignment",J="imageRepeat",K="auto",L="favicon",M="sketchFactor",N="0",O="colorStyle",P="appliedColor",Q="fontName",R="Applied Font",S="borderWidth",T="adaptiveStyles",U="interactionMap",V="onLoad",W="description",X="页面载入时",Y="cases",Z="Case 1",ba="isNewIfGroup",bb="actions",bc="action",bd="wait",be="等待 2000 毫秒",bf="waitTime",bg=2000,bh="linkWindow",bi="在 当前窗口 打开 MainActivity",bj="target",bk="targetType",bl="mainactivity.html",bm="includeVariables",bn=true,bo="linkType",bp="current",bq="diagram",br="objects",bs="masters",bt="objectPaths";
+return _creator();
+})());

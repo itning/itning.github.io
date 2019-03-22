@@ -8,13 +8,13 @@
     <!-- Basics -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="google-site-verification" content="HPSF3kCaaMQzgqf2AO_DvEr97-seB3hW9ySXkat67j4" />
-    <meta name="baidu-site-verification" content="EwXbXBbYmq" />
-    <meta name="360-site-verification" content="cd063ac9b8ba143a154e50fe659653dc" />
+    <meta name="google-site-verification" content="HPSF3kCaaMQzgqf2AO_DvEr97-seB3hW9ySXkat67j4"/>
+    <meta name="baidu-site-verification" content="EwXbXBbYmq"/>
+    <meta name="360-site-verification" content="cd063ac9b8ba143a154e50fe659653dc"/>
     <title>.:: ITNING ::.</title>
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/19759891?s=460&v=4">
 
     <!-- Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -74,7 +74,8 @@
                 <p
                         data-100="opacity:0;"
                         data-500="opacity:1;"
-                >I am a Chinese university student who enjoys programming and likes to accept new things.You can browse down to my work.</p>
+                >I am a Chinese university student who enjoys programming and likes to accept new things.You can browse
+                    down to my work.</p>
                 <a href="//github.com/itning" target="_blank" class="but">Visit My Github</a>
             </div>
             <div class="col empty">&nbsp;</div>
@@ -153,7 +154,7 @@
                  data-1300="opacity:0;"
                  data-1400="opacity:1;"
             >
-                <img src="img/works/hrms.png" alt="">
+                <img class="lazy" data-original="img/works/hrms.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>Human Resource Manage System</h4>
@@ -165,11 +166,12 @@
                  data-1300="opacity:0;"
                  data-1400="opacity:1;"
             >
-                <img src="img/works/shw.png" alt="">
+                <img class="lazy" data-original="img/works/shw.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>Student Homework Manager System</h4>
-                        <a href="//github.com/itning/Student-Homework-Management-System" target="_blank" class="but">View Source</a>
+                        <a href="//github.com/itning/Student-Homework-Management-System" target="_blank" class="but">View
+                            Source</a>
                     </div>
                 </div>
             </div>
@@ -177,7 +179,7 @@
                  data-1300="opacity:0;"
                  data-1600="opacity:1;"
             >
-                <img src="img/works/ta.png" alt="">
+                <img class="lazy" data-original="img/works/ta.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>Teacher Assistant</h4>
@@ -189,7 +191,7 @@
                  data-1300="opacity:0;"
                  data-1400="opacity:1;"
             >
-                <img src="img/works/dbdy.png" alt="">
+                <img class="lazy" data-original="img/works/dbdy.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>DouBan Movie For Vue.JS</h4>
@@ -201,7 +203,7 @@
                  data-1300="opacity:0;"
                  data-1500="opacity:1;"
             >
-                <img src="img/works/itning.png" alt="">
+                <img class="lazy" data-original="img/works/itning.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>Personal Blog System</h4>
@@ -213,7 +215,7 @@
                  data-1300="opacity:0;"
                  data-1600="opacity:1;"
             >
-                <img src="img/works/db.png" alt="">
+                <img class="lazy" data-original="img/works/db.png" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>DouBan Movie For AngularJS</h4>
@@ -253,7 +255,9 @@
             <div class="col f1">
                 <p>黑ICP备17003448号 | Copyright © 2017 <a href="http://blog.csdn.net/a1837634447" target="_blank"
                                                         title="itning.top">itning.top</a>. All rights reserved.
-                    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262008292'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1262008292%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+                    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cspan id='cnzz_stat_icon_1262008292'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1262008292%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+                </p>
             </div>
         </div>
     </footer>
@@ -267,7 +271,10 @@
 <script src="js/modernizr-2.6.2.min.js"></script>
 <script src="js/skrollr.js"></script>
 <script src="js/main.js"></script>
-
+<script src="js/lazyload.min.js"></script>
+<script>
+    $(".lazy").lazyload();
+</script>
 </body>
 
 </html>
